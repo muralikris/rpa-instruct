@@ -1,4 +1,4 @@
-# rpa-instruct
+# RPA-Instruct
 Design Robotic Process Automation (RPA) Agents for Desktops using Human Instruction and Computer Vision
 ![RPA Instructing RPA Agent](./assets/rpa_instruct.jfif)
 
@@ -28,6 +28,9 @@ Speed and Capability Trade-off
    - Ongoing improvements in CV algorithms and hardware acceleration will reduce the latency/performance gaps.
    - Use CV selectively for tasks where its benefits outweigh speed concerns
 
+## Desktop RPA Demo
+The `examples/` folder has a Jupyter Notebooks to run some demo automation flows. It was tested on Windows OS, Chrome Browser
+
 ## References for Foundational Python Libraries which helped in realizing this work
 1. Optical Character Recognition (OCR) Library- [docTR](https://github.com/mindee/doctr)
 2. Segment Anything Model (SAM) Library- [SAM](https://github.com/facebookresearch/segment-anything)
@@ -35,6 +38,7 @@ Speed and Capability Trade-off
 
 ## Citation
 If you use rpa-instruct in your work/research and found it useful, please leave me a star and/or use the following BibTeX entry.
+```
 @article{muralikp2024_rpainstruct,
   title={RPA-Instruct:Design Powerful Automation for desktops using computer vision},
   author={Pasupuleti, Murali Krishna},
@@ -42,3 +46,4 @@ If you use rpa-instruct in your work/research and found it useful, please leave 
   journal={GitHub},
   year={2024}
 }
+```
