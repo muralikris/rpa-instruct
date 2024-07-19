@@ -27,3 +27,18 @@ Speed and Capability Trade-off
    - While CV based solution may be slower compared to other options like Selenium, it offer intuitive/low-code experience for automation.
    - Ongoing improvements in CV algorithms and hardware acceleration will reduce the latency/performance gaps.
    - Use CV selectively for tasks where its benefits outweigh speed concerns
+
+## References for Foundational Python Libraries which helped in realizing this work
+1. Optical Character Recognition (OCR) Library- [docTR](https://github.com/mindee/doctr)
+2. Segment Anything Model (SAM) Library- [SAM](https://github.com/facebookresearch/segment-anything)
+3. Learning Robust Visual Features without Supervision- [DINOv2](https://github.com/facebookresearch/dinov2)
+
+## Citation
+If you use rpa-instruct in your work/research and found it useful, please leave me a star and/or use the following BibTeX entry.
+@article{muralikp2024_rpainstruct,
+  title={RPA-Instruct:Design Powerful Automation for desktops using computer vision},
+  author={Pasupuleti, Murali Krishna},
+  url={https://github.com/muralikris/rpa-instruct},
+  journal={GitHub},
+  year={2024}
+}
