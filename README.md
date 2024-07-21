@@ -30,7 +30,7 @@ Speed and Capability Trade-off
 
 ## Desktop RPA Demo
 The `examples/` folder has a Jupyter Notebooks to run some demo automation flows. It was tested on Windows OS using Chrome and Edge Browsers
-[![Demo1](YT Ad Skipper)](https://www.youtube.com/watch?v=C6iz0lt0SoE)
+1.Youtube Ad Skipper [Demo](https://www.youtube.com/watch?v=C6iz0lt0SoE)
 
 
 ## References for Foundational Python Libraries which helped in realizing this work
