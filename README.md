@@ -29,7 +29,9 @@ Speed and Capability Trade-off
    - Use CV selectively for tasks where its benefits outweigh speed concerns
 
 ## Desktop RPA Demo
-The `examples/` folder has a Jupyter Notebooks to run some demo automation flows. It was tested on Windows OS, Chrome Browser
+The `examples/` folder has a Jupyter Notebooks to run some demo automation flows. It was tested on Windows OS using Chrome and Edge Browsers
+[![Demo1](YT Ad Skipper)](https://www.youtube.com/watch?v=C6iz0lt0SoE)
+
 
 ## References for Foundational Python Libraries which helped in realizing this work
 1. Optical Character Recognition (OCR) Library- [docTR](https://github.com/mindee/doctr)
