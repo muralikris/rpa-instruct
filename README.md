@@ -38,6 +38,7 @@ The `examples/` folder has a Jupyter Notebooks to run some demo automation flows
 1. Optical Character Recognition (OCR) Library- [docTR](https://github.com/mindee/doctr)
 2. Segment Anything Model (SAM) Library- [SAM](https://github.com/facebookresearch/segment-anything)
 3. Learning Robust Visual Features without Supervision- [DINOv2](https://github.com/facebookresearch/dinov2)
+4. Open Source Computer Vision Library- [OpenCV](https://github.com/opencv/opencv-python)
 
 ## Citation
 If you use rpa-instruct in your work/research and found it useful, please leave me a star and/or use the following BibTeX entry.
