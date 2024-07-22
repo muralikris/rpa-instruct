@@ -31,8 +31,8 @@ Speed and Capability Trade-off
 ## Desktop RPA Demo
 The `examples/` folder has a Jupyter Notebooks to run some demo automation flows. Review `assets/` folder, which has screenshots for edge and chrome settings. It was tested on Windows OS using Chrome and Edge Browsers
 
-1. Youtube Ad Skipper [Demo](https://www.youtube.com/watch?v=C6iz0lt0SoE)
-
+1. Youtube Ad Skipper [Demo](https://youtu.be/C6iz0lt0SoE)
+2. Email Composer and Sender with Gmail [Demo](https://youtu.be/LvAx3oF-89M)
 
 ## References for Foundational Python Libraries which helped in realizing this work
 1. Optical Character Recognition (OCR) Library- [docTR](https://github.com/mindee/doctr)
