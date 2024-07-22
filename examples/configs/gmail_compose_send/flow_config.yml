@@ -1,0 +1,68 @@
+Flow:
+  - Step: 1
+    name: Start Edge Browser # Human Friendly Description for the Step
+    prompt_type: image #Required Field
+    prompt_content: "./image_prompts/gmail_compose_send/edge_icon.png" #Required Field
+    action: click #Required Field- Mouse Click, Keyboard Enter etc.
+    validate: false #Sample validation can be: Match the Screenshot with Next-step's Image
+  - Step: 2
+    name: Visit Gmail Website
+    prompt_type: command
+    prompt_content: "https://mail.google.com/" #Skipping Authentication for this flow, uses authenticated session
+    action: enter #keyboard
+    validate: false
+  - Step: 3
+    name: Compose New Email
+    prompt_type: text
+    prompt_content: "Compose"
+    action: click #mouse
+    validate: false
+  #Gmail default is "To" button for sending emails- skipping the step to search for that Field and 
+  - Step: 4
+    name: Enter Recipient's Email
+    prompt_type: dataentry 
+    prompt_content: "rpa-instruct@noreply.github.com" #Replace with valid Email address
+    action: None #No Action
+    validate: false
+  - Step: 5
+    name: Accept the Email Address Entered Above
+    prompt_type: command
+    prompt_content: ['tab']
+    action: hotkey
+    validate: false
+  - Step: 6
+    name: Switch to Email's Subject Field
+    prompt_type: command
+    prompt_content: ['tab']
+    action: hotkey
+    validate: false
+  - Step: 7
+    name: Enter Email's Subject
+    prompt_type: dataentry
+    prompt_content: "Compose Email Using RPA Instruct"
+    action: None #No Action
+    validate: false
+  - Step: 8
+    name: Switch to Email's Body Field
+    prompt_type: command
+    prompt_content: ['tab']
+    action: hotkey
+    validate: false
+  - Step: 9
+    name: Enter Email's Body
+    prompt_type: dataentry
+    prompt_content: "Hello,\nI am excited to introduce RPA Instruct which unlocks Hyper Desktop-Automation using Computer Vision.\nWith Best Regards, \nMurali."
+    action: None #No Action
+    validate: false
+  - Step: 10
+    name: Send Email
+    prompt_type: text
+    prompt_content: "Send"
+    action: click #mouse
+    validate: false
+  - Step: 11
+    name: Close Edge Browser Tab
+    prompt_type: command
+    prompt_content: ['ctrl', 'w']
+    action: hotkey
+    validate: false
